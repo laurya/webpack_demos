@@ -1,0 +1,11 @@
+$background: red;
+$jumbotronBackground: green;
+
+.result-background {
+  background-color: $background;
+}
+
+:global(.jumbotron).result-background {
+  background-color: $jumbotronBackground;
+  display: block;
+}
